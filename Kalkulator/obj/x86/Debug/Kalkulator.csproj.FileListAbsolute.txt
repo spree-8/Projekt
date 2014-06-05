@@ -1,0 +1,36 @@
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Form1.resources
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Properties.Resources.resources
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.exe
+F:\Dysk wymienny\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.pdb
+K:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.exe
+K:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.pdb
+K:\studia\c#\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+K:\studia\c#\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+K:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Form1.resources
+K:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Properties.Resources.resources
+K:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.csproj.GenerateResource.Cache
+F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.exe
+F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.pdb
+F:\studia\c#\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+F:\studia\c#\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Form1.resources
+F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Properties.Resources.resources
+F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.exe
+G:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.pdb
+G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.exe
+G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.pdb
+G:\studia\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+G:\studia\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Form1.resources
+G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Properties.Resources.resources
+G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.write.1.tlog
