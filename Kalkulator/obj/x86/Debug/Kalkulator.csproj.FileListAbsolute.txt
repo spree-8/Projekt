@@ -25,12 +25,5 @@ F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.read.1.tlog
 F:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.write.1.tlog
 G:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.exe
 G:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.pdb
-G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.exe
-G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.pdb
-G:\studia\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
-G:\studia\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
-G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\ResolveAssemblyReference.cache
-G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Form1.resources
-G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.Properties.Resources.resources
-G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.read.1.tlog
-G:\studia\Kalkulator\Kalkulator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Desktop\rep\Kalkulator\obj\x86\Debug\Kalkulator.exe
+C:\Users\Admin\Desktop\rep\Kalkulator\obj\x86\Debug\Kalkulator.pdb
