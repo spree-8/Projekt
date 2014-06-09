@@ -51,6 +51,10 @@
             this.dzielToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.potegaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pierwiastekToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.labelKonwersja = new System.Windows.Forms.Label();
+            this.textBoxObjasnienie = new System.Windows.Forms.TextBox();
+            this.buttonKonwertuj = new System.Windows.Forms.Button();
+            this.toolStripMenuItemKonwertuj = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -184,7 +188,7 @@
             this.dzialaniaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(484, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(485, 24);
             this.menuStrip1.TabIndex = 13;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -193,13 +197,13 @@
             this.plikToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.zakonczToolStripMenuItem});
             this.plikToolStripMenuItem.Name = "plikToolStripMenuItem";
-            this.plikToolStripMenuItem.Size = new System.Drawing.Size(34, 20);
+            this.plikToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.plikToolStripMenuItem.Text = "&Plik";
             // 
             // zakonczToolStripMenuItem
             // 
             this.zakonczToolStripMenuItem.Name = "zakonczToolStripMenuItem";
-            this.zakonczToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.zakonczToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.zakonczToolStripMenuItem.Text = "&Zakończ";
             this.zakonczToolStripMenuItem.Click += new System.EventHandler(this.zakonczToolStripMenuItem_Click);
             // 
@@ -211,58 +215,103 @@
             this.mnozToolStripMenuItem,
             this.dzielToolStripMenuItem,
             this.potegaToolStripMenuItem,
-            this.pierwiastekToolStripMenuItem});
+            this.pierwiastekToolStripMenuItem,
+            this.toolStripMenuItemKonwertuj});
             this.dzialaniaToolStripMenuItem.Name = "dzialaniaToolStripMenuItem";
-            this.dzialaniaToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.dzialaniaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.dzialaniaToolStripMenuItem.Text = "&Działania";
             // 
             // dodajToolStripMenuItem
             // 
             this.dodajToolStripMenuItem.Name = "dodajToolStripMenuItem";
-            this.dodajToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.dodajToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.dodajToolStripMenuItem.Text = "&Dodaj";
             this.dodajToolStripMenuItem.Click += new System.EventHandler(this.buttonDodaj_Click);
             // 
             // odejmijToolStripMenuItem
             // 
             this.odejmijToolStripMenuItem.Name = "odejmijToolStripMenuItem";
-            this.odejmijToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.odejmijToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.odejmijToolStripMenuItem.Text = "&Odejmij";
             this.odejmijToolStripMenuItem.Click += new System.EventHandler(this.buttonOdejmij_Click);
             // 
             // mnozToolStripMenuItem
             // 
             this.mnozToolStripMenuItem.Name = "mnozToolStripMenuItem";
-            this.mnozToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.mnozToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.mnozToolStripMenuItem.Text = "&Mnóż";
             this.mnozToolStripMenuItem.Click += new System.EventHandler(this.buttonMnoz_Click);
             // 
             // dzielToolStripMenuItem
             // 
             this.dzielToolStripMenuItem.Name = "dzielToolStripMenuItem";
-            this.dzielToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.dzielToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.dzielToolStripMenuItem.Text = "D&ziel";
             this.dzielToolStripMenuItem.Click += new System.EventHandler(this.buttonDziel_Click);
             // 
             // potegaToolStripMenuItem
             // 
             this.potegaToolStripMenuItem.Name = "potegaToolStripMenuItem";
-            this.potegaToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.potegaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.potegaToolStripMenuItem.Text = "&Potęga";
             this.potegaToolStripMenuItem.Click += new System.EventHandler(this.buttonPotega_Click);
             // 
             // pierwiastekToolStripMenuItem
             // 
             this.pierwiastekToolStripMenuItem.Name = "pierwiastekToolStripMenuItem";
-            this.pierwiastekToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.pierwiastekToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.pierwiastekToolStripMenuItem.Text = "Pie&rwiastek";
             this.pierwiastekToolStripMenuItem.Click += new System.EventHandler(this.buttonPierwiastek_Click);
+            // 
+            // labelKonwersja
+            // 
+            this.labelKonwersja.AutoSize = true;
+            this.labelKonwersja.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelKonwersja.ForeColor = System.Drawing.Color.Maroon;
+            this.labelKonwersja.Location = new System.Drawing.Point(14, 291);
+            this.labelKonwersja.Name = "labelKonwersja";
+            this.labelKonwersja.Size = new System.Drawing.Size(328, 26);
+            this.labelKonwersja.TabIndex = 15;
+            this.labelKonwersja.Text = "Konwersja na inne systemy liczbowe: ";
+            // 
+            // textBoxObjasnienie
+            // 
+            this.textBoxObjasnienie.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxObjasnienie.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxObjasnienie.Enabled = false;
+            this.textBoxObjasnienie.Location = new System.Drawing.Point(12, 320);
+            this.textBoxObjasnienie.Multiline = true;
+            this.textBoxObjasnienie.Name = "textBoxObjasnienie";
+            this.textBoxObjasnienie.Size = new System.Drawing.Size(399, 35);
+            this.textBoxObjasnienie.TabIndex = 16;
+            this.textBoxObjasnienie.Text = "(W polu Liczba1 wprowadź liczbę całkowitą w systemie dziesiętnym, w polu Liczba2 " +
+    "system liczbowy: 2 lub bin, 8 lub oct, 16 lub hex.)";
+            // 
+            // buttonKonwertuj
+            // 
+            this.buttonKonwertuj.Location = new System.Drawing.Point(19, 361);
+            this.buttonKonwertuj.Name = "buttonKonwertuj";
+            this.buttonKonwertuj.Size = new System.Drawing.Size(75, 23);
+            this.buttonKonwertuj.TabIndex = 17;
+            this.buttonKonwertuj.Text = "Konwertuj";
+            this.buttonKonwertuj.UseVisualStyleBackColor = true;
+            this.buttonKonwertuj.Click += new System.EventHandler(this.buttonKonwertuj_Click);
+            // 
+            // toolStripMenuItemKonwertuj
+            // 
+            this.toolStripMenuItemKonwertuj.Name = "toolStripMenuItemKonwertuj";
+            this.toolStripMenuItemKonwertuj.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItemKonwertuj.Text = "Konwertuj";
+            this.toolStripMenuItemKonwertuj.Click += new System.EventHandler(this.buttonKonwertuj_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 360);
+            this.ClientSize = new System.Drawing.Size(485, 414);
+            this.Controls.Add(this.buttonKonwertuj);
+            this.Controls.Add(this.textBoxObjasnienie);
+            this.Controls.Add(this.labelKonwersja);
             this.Controls.Add(this.buttonPierwiastek);
             this.Controls.Add(this.buttonPotega);
             this.Controls.Add(this.buttonDziel);
@@ -312,6 +361,10 @@
         private System.Windows.Forms.ToolStripMenuItem dzielToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem potegaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pierwiastekToolStripMenuItem;
+        private System.Windows.Forms.Label labelKonwersja;
+        private System.Windows.Forms.TextBox textBoxObjasnienie;
+        private System.Windows.Forms.Button buttonKonwertuj;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemKonwertuj;
     }
 }
 

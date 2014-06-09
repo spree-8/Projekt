@@ -75,6 +75,32 @@ namespace Kalkulator
             Application.Exit();
         }
 
+        private void buttonKonwertuj_Click(object sender, EventArgs e)
+        {
+            int liczbadec = int.Parse(textBoxLiczba1.Text);
+            string systemstr = textBoxLiczba2.Text;
+            string converted = " ";
+
+            if (systemstr == "2" || systemstr == "bin")
+            {
+                converted = Convert.ToString(liczbadec, 2);
+            }
+            else if (systemstr == "8" || systemstr == "oct")
+            {
+                converted = Convert.ToString(liczbadec, 8);
+            }
+            else if (systemstr == "16" || systemstr == "hex")
+            {
+                converted = Convert.ToString(liczbadec, 16);
+            }
+            else
+            {
+                MessageBox.Show("Wprowadziłeś zły identyfikator systemu liczbowego.", "Error");
+            }
+
+            textBoxWynik.Text = converted;
+        }
+
    
      
 

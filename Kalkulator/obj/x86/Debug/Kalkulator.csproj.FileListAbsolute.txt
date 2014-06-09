@@ -27,3 +27,11 @@ G:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.exe
 G:\studia\c#\Kalkulator\Kalkulator\obj\x86\Debug\Kalkulator.pdb
 C:\Users\Admin\Desktop\rep\Kalkulator\obj\x86\Debug\Kalkulator.exe
 C:\Users\Admin\Desktop\rep\Kalkulator\obj\x86\Debug\Kalkulator.pdb
+C:\Users\sferis\Desktop\Program\Projekt2\Kalkulator\obj\x86\Debug\Kalkulator.exe
+C:\Users\sferis\Desktop\Program\Projekt2\Kalkulator\obj\x86\Debug\Kalkulator.pdb
+C:\Users\sferis\Desktop\Program\Projekt2\Kalkulator\bin\Debug\Kalkulator.exe
+C:\Users\sferis\Desktop\Program\Projekt2\Kalkulator\bin\Debug\Kalkulator.pdb
+C:\Users\sferis\Desktop\Program\Projekt2\Kalkulator\obj\x86\Debug\Kalkulator.csprojResolveAssemblyReference.cache
+C:\Users\sferis\Desktop\Program\Projekt2\Kalkulator\obj\x86\Debug\Kalkulator.Form1.resources
+C:\Users\sferis\Desktop\Program\Projekt2\Kalkulator\obj\x86\Debug\Kalkulator.Properties.Resources.resources
+C:\Users\sferis\Desktop\Program\Projekt2\Kalkulator\obj\x86\Debug\Kalkulator.csproj.GenerateResource.Cache
